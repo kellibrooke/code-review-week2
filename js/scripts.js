@@ -29,6 +29,17 @@ $(function(){
 
     var yourName = $("#your-name").val();
 
+    var counter1 = question1Input.toString();
+    var counter2 = question2Input.toString();
+    var counter3 = question3Input.toString();
+    var counter4 = question4Input.toString();
+
+    var counterScore = counter1 + counter2 + counter3 + counter4;
+    alert(counterScore);
+    
+
+
+
     $(".result-user").html(yourName);
     $("#quiz-container").hide();
     $("#clicked-container").show();
