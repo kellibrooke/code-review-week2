@@ -12,11 +12,21 @@ $(function(){
     var question4Input = $("input:radio[name=question-5]:checked").val();
     var question5Input = $("input:radio[name=question-6]:checked").val();
 
-    
+    $("#quiz-container").hide();
+    $("#results-container").show();
 
 
     event.preventDefault();
-  })
+  });
+
+  $("#try-again").click(function(){
+
+    $("#results-container").hide();
+    $("#quiz-container").show();
+
+
+    event.preventDefault();
+  });
 
 
 
