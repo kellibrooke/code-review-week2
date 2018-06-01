@@ -1,11 +1,8 @@
 body{
   margin-top:25px;
+  margin-bottom:25px;
 }
 
-#results-container{
-  display:none;
-}
-
-#disqualify-container{
+#results-container, #disqualify-container, #clicked-container {
   display:none;
 }
