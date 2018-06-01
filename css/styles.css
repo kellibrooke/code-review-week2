@@ -5,3 +5,7 @@ body{
 #results-container{
   display:none;
 }
+
+#disqualify-container{
+  display:none;
+}
