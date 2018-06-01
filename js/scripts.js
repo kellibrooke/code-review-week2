@@ -19,8 +19,7 @@ $(function(){
     var cSharp = "C#/.NET";
     var rubyRails = "Ruby/Rails";
 
-    var cssReactInfo = "CSS is the language for describing the presentation of Web pages, including colors, layout, fonts, and other stylistic choices. It allows one to adapt the presentation to different types of devices, such as large screens, small screens, and printers. HTML, used for building the structure of the page, and CSS, used for the visual layout, are the two basic languages involved in the building of web pages and web applications.<br>React is a JavaScript library used to create dynamic, interactive user interfaces. It allows a site to quickly update many different elements at once, without reloading the page. Since its development at Facebook in 2011 it has exploded in popularity. In fact, a recent survey by the popular question-and-answer site Stack Overflow reported React's usage increased by over 300% in 2016 alone. Examples of companies and products that use React include AirBnB, BBC, Ebay, Facebook, Instagram, Lyft, Netflix, New York Times, Reddit, Nike, Pinterest, Paypal, and many more.";
-
+    var cssReactInfo = "CSS is the language for describing the presentation of Web pages, including colors, layout, fonts, and other stylistic choices. It allows one to adapt the presentation to different types of devices, such as large screens, small screens, and printers. HTML, used for building the structure of the page, and CSS, used for the visual layout, are the two basic languages involved in the building of web pages and web applications. React is a JavaScript library used to create dynamic, interactive user interfaces. It allows a site to quickly update many different elements at once, without reloading the page. Since its development at Facebook in 2011 it has exploded in popularity. In fact, a recent survey by the popular question-and-answer site Stack Overflow reported React's usage increased by over 300% in 2016 alone. Examples of companies and products that use React include AirBnB, BBC, Ebay, Facebook, Instagram, Lyft, Netflix, New York Times, Reddit, Nike, Pinterest, Paypal, and many more.";
     var cSharpInfo = "C# is most popular among bigger established businesses, often for building internal software. Because it's been around for a long time and has the backing of Microsoft, it is one of the most in-demand languages in the job market. C# has also been going through a bit of a rebirth lately, with Microsoft open sourcing the language and surrounding platform, porting it to run on Mac and Linux, and incorporating many of the best features of other languages. If you like the idea of working for a larger company on business software, C# is a great choice.";
     var rubyRailsInfo = "Ruby is a favorite language of developers building interactive web applications. If an app involves users creating accounts, entering information, and interacting with dynamic content, there's a good chance it is built with Ruby. Ruby became popular because the Rails framework, which is written with Ruby, simplified many of the common tasks associated with building web applications. It's most popular with startups and smaller companies who are looking to build their product quickly. Though each language has its niche, there is plenty of crossover. For example, Rails' popularity inspired copycats in just about every language, and so you'll see interactive web applications written in C#, Java, and PHP, with Rails-like frameworks including .NET MVC, Spring, and Laravel. Even at one company, you might find them using PHP for their marketing site, Ruby for their web application, and Java for their back-end processing. ";
 
@@ -58,27 +57,15 @@ $(function(){
       $("#result-description").html(rubyRailsInfo);
       $("#results-container").show();
     }
-    //   $("#result-name").html(cssReact);
-    //   $("#result-img").html(cssReactImg);
-    //   $("#result-description").html(cssReactInfo);
-    //   $("#disqualify-container").show();
-    // } else{
-    //   alert("working!");
-    // }
-    // } else if(question5Input === "disqualify"){
-    //   $("#disqualify-description").html(whatItTakesLecture);
-    //   $("#disqualify-container").show();
-    // 1x4=4, 4-6,7-10, 1/1/1/3=6 2/2/2/1 or 3= 7 or 9, 3/3/3/1 or 2= 10 or 11
-
 
     event.preventDefault();
+
   });
 
   $("#try-again").click(function(){
 
     $("#results-container, #disqualify-container, #clicked-container").hide();
     $("#quiz-container").show();
-
 
     event.preventDefault();
   });
