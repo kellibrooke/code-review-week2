@@ -27,6 +27,9 @@ $(function(){
     var cSharpImg = "<img src='img/c-sharp.jpg' alt='css/react image'>";
     var rubyRailsImg = "<img src='img/ruby-rails.jpg' alt='css/react image'>";
 
+    var yourName = $("#your-name").val();
+
+    $(".result-user").html(yourName);
     $("#quiz-container").hide();
     $("#clicked-container").show();
 

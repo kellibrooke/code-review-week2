@@ -17,6 +17,10 @@
       <p>Thinking of studying code at Epicodus, but not sure which track to pick? Fill out this questionnaire to see which track is right for you!</p>
 
       <div class="form-group">
+        <label for="your-name">Please enter your name</label>
+        <input type="text" class="form-control" id="your-name" placeholder="your name here">
+      </div>
+      <div class="form-group">
         <label for="question-1">Which of these is most important to you?</label>
 
         <div class="form-check" id="question-1">
@@ -162,12 +166,12 @@
         <div>
           <span id="result-img"></span>
         </div>
-        <h1>Your Track is <span id="result-name"></span>!</h1>
+        <h1>Congratulations, <span class="result-user"></span>! Your track is <span id="result-name"></span>!</h1>
         <p><span id="result-description"></span></p>
       </div>
 
       <div id="disqualify-container">
-        <h2>Sorry!</h2>
+        <h2>Sorry, <span class="result-user"></span>!</h2>
         <p><span id="disqualify-description"></span></p>
       </div>
 

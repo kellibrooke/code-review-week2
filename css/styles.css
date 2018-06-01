@@ -6,3 +6,7 @@ body{
 #results-container, #disqualify-container, #clicked-container {
   display:none;
 }
+
+#your-name{
+  width:300px;
+}
